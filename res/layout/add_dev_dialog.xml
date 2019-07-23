@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/bg_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/dev_dialog_bg" />
+    
+    <TextView
+        android:id="@+id/mac_tv"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/bg_iv"
+        android:layout_alignLeft="@id/bg_iv"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        android:text="@string/dev_mac" />
+    <EditText
+        android:id="@+id/mac_et"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@id/bg_iv"
+        android:layout_alignRight="@id/bg_iv"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:text="@string/dev_mac_string" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bg_iv"
+        android:layout_below="@id/mac_tv"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        android:text="@string/dev_name" />
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_alignRight="@id/bg_iv"
+        android:layout_below="@id/mac_et"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:text="@string/dev_name_string" />
+
+    <Button
+        android:id="@+id/cancel_bn"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_alignLeft="@id/bg_iv"
+        android:layout_alignBottom="@id/bg_iv"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@layout/round_bn"
+        android:text="@string/cancel"
+        android:textColor="#FFFFFFFF" />
+    <Button
+        android:id="@+id/ok_bn"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_alignRight="@id/bg_iv"
+        android:layout_alignBottom="@id/bg_iv"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@layout/round_bn"
+        android:text="@string/ok"
+        android:textColor="#FFFFFFFF" />
+</RelativeLayout>

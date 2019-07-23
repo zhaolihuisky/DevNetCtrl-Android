@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DevNetCtrl</string>
+    
+    <string name="user_name">用户名</string>
+    <string name="user_name_string">用户名为英文字母或数字或二者组合，不能超过32个字符</string>
+    <string name="user_pwd">密码</string>
+    <string name="user_register">注册</string>
+    <string name="user_unregister">注销</string>
+    <string name="user_logon">登录</string>
+    <string name="user_not_logon">用户未登录</string>
+    <string name="user_connect_server">正在连接服务器，请稍后。。。</string>
+    <string name="user_connect_timeout">连接服务器超时</string>
+    <string name="user_register_success">用户注册成功，请登录</string>
+    <string name="user_name_toolong">用户名太长</string>
+    <string name="user_name_invalid">用户名无效</string>
+    <string name="user_name_exist">用户名已存在</string>
+    <string name="user_pwd_toolong">密码太长</string>
+    <string name="user_name_null">用户名不能为空</string>
+    <string name="user_pwd_null">密码不能为空</string>
+    <string name="user_logon_error">用户名或者密码错误</string>
+    <string name="user_rempwd">记住密码</string>
+    <string name="user_reg_logon">用户注册登录</string>
+    <string name="user_press_exit">请再按一次退出程序</string>
+    <string name="user_unregister_confirm">用户注销后，其所有注册设备会被删除。\n是否注销用户</string>
+    <string name="user_unregister_error">用户未登录，不能注销用户</string>
+    <string name="user_menu_register">用户注册</string>
+    <string name="user_menu_unregister">用户注销</string>
+    <string name="user_menu_logon">用户登录</string>
+    <string name="user_menu_logoff">用户退出</string>
+    
+    <string name="light_select">请选择灯</string>
+    <string name="light_poweron">开启</string>
+    <string name="light_poweroff">关闭</string>
+    <string name="light_increase">变亮</string>
+    <string name="light_decrease">变暗</string>
+    <string name="light_random">随机</string>
+    <string name="light_bluetooth">蓝牙</string>
+    <string name="light_micphone">麦克风</string>
+    <string name="light_auto">自动渐变</string>
+    <string name="light_bluetooth_useornot">是否使用本手机蓝牙</string>
+    
+    <string name="dev_scan">本地搜索</string>
+    <string name="dev_add">增加</string>
+    <string name="dev_edt">编辑</string>
+    <string name="dev_del">删除</string>
+    <string name="dev_reg">注册</string>
+    <string name="dev_unreg">注销</string>
+    <string name="dev_registed">已注册</string>
+    <string name="dev_unregisted">未注册</string>
+    <string name="dev_list">设备列表</string>
+    <string name="dev_select">选中设备</string>
+    <string name="dev_unselect">未选中设备</string>
+    <string name="dev_chkall">全选中</string>
+    <string name="dev_unchkall">全不选中</string>
+    <string name="dev_chkdel">删除选中</string>
+    
+    <string name="dev_mac">物理地址</string>
+    <string name="dev_mac_string">0123456789AB</string>
+    <string name="dev_mac_invalid">物理地址无效</string>
+    <string name="dev_mac_exist">物理地址已存在</string>
+    <string name="dev_name">名称</string>
+    <string name="dev_name_string">大厅灯</string>
+    <string name="dev_name_notnull">名称不能为空</string>
+    <string name="dev_ip">网络地址</string>
+    <string name="dev_ip_string">192.168.1.6</string>
+    <string name="dev_ip_invalid">网络地址无效</string>
+    
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+</resources>

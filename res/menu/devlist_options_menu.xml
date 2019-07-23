@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+       <item android:id="@+id/dev_scan" android:title="@string/dev_scan"></item>
+       <item android:id="@+id/dev_add" android:title="@string/dev_add"></item>
+       <item android:id="@+id/dev_chkall" android:title="@string/dev_chkall"></item>
+       <item android:id="@+id/dev_unchkall" android:title="@string/dev_unchkall"></item>
+       <item android:id="@+id/dev_chkdel" android:title="@string/dev_chkdel"></item>
+
+</menu>

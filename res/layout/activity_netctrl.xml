@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/background"
+    android:id="@+id/RLayout">
+
+    <Button
+        android:id="@+id/light_select_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:background="@layout/round_bn"
+        android:text="@string/light_select"
+        android:textColor="#FFFFFFFF" />
+
+	<Button
+        android:id="@+id/light_poweron_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/light_select_bn"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/round_bn"
+        android:textColor="#FFFFFFFF"
+        android:text="@string/light_poweron" />
+	
+    <Button
+        android:id="@+id/light_poweroff_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/light_select_bn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@layout/round_bn"
+        android:text="@string/light_poweroff"
+        android:textColor="#FFFFFFFF" />
+    
+    <Button
+        android:id="@+id/light_auto_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/light_select_bn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@layout/round_bn"
+        android:text="@string/light_auto"
+        android:textColor="#FFFFFFFF" />
+
+    <Button
+        android:id="@+id/light_increase_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/light_auto_bn"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/round_bn"
+        android:textColor="#FFFFFFFF"
+        android:text="@string/light_increase" />
+
+    <Button
+        android:id="@+id/light_decrease_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/light_auto_bn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@layout/round_bn"
+        android:text="@string/light_decrease"
+        android:textColor="#FFFFFFFF" />
+
+    <Button
+        android:id="@+id/light_random_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/light_auto_bn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@layout/round_bn"
+        android:text="@string/light_random"
+        android:textColor="#FFFFFFFF" />
+
+    <Button
+        android:id="@+id/light_bluetooth_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/light_random_bn"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/round_bn"
+        android:textColor="#FFFFFFFF"
+        android:text="@string/light_bluetooth" />
+
+    <Button
+        android:id="@+id/light_micphone_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/light_random_bn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@layout/round_bn"
+        android:text="@string/light_micphone"
+        android:textColor="#FFFFFFFF" />
+
+    <com.aladin.devnetctrl.ColorRingView
+        android:id="@+id/light_colorring_vw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/light_random_bn"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

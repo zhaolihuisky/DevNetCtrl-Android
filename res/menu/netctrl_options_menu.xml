@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+       <item android:id="@+id/user_menu_register" android:title="@string/user_menu_register"></item>
+       <item android:id="@+id/user_menu_unregister" android:title="@string/user_menu_unregister"></item>
+       <item android:id="@+id/user_menu_logon" android:title="@string/user_menu_logon"></item>
+       <item android:id="@+id/user_menu_logoff" android:title="@string/user_menu_logoff"></item>       
+</menu>

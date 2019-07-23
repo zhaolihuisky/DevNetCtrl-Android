@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+       <item android:id="@+id/dev_edt" android:title="@string/dev_edt"></item>
+       <item android:id="@+id/dev_del" android:title="@string/dev_del"></item>
+       <item android:id="@+id/dev_reg" android:title="@string/dev_reg"></item>
+       <item android:id="@+id/dev_unreg" android:title="@string/dev_unreg"></item>
+
+</menu>

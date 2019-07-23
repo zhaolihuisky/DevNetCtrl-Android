@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        android:text="@string/user_name" />
+
+    <EditText
+        android:id="@+id/user_name_et"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignBaseline="@id/user_name_tv"
+        android:layout_toRightOf="@id/user_name_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:inputType="textPersonName" />
+    
+    <TextView
+        android:id="@+id/user_name_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/user_name_et"
+        android:layout_alignRight="@id/user_name_et"
+        android:layout_below="@id/user_name_tv"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        android:text="@string/user_name_string" />
+    
+    <TextView
+        android:id="@+id/user_pwd_tv"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/user_name_tv"
+        android:layout_below="@id/user_name_tv"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        android:text="@string/user_pwd" />
+    
+    <EditText
+        android:id="@+id/user_pwd_et"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignBaseline="@id/user_pwd_tv"
+        android:layout_toRightOf="@id/user_pwd_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword" />
+    
+    <CheckBox  
+		android:id="@+id/user_rempwd_cb"  
+		android:layout_width="wrap_content"  
+		android:layout_height="wrap_content"  
+        android:layout_alignLeft="@id/user_pwd_tv"
+        android:layout_below="@id/user_pwd_tv"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+		android:text="@string/user_rempwd" /> 
+    
+    <Button
+        android:id="@+id/user_register_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/user_pwd_tv"
+        android:layout_below="@id/user_pwd_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@layout/round_bn"
+        android:text="@string/user_register"
+        android:textColor="#FFFFFFFF" />
+    
+    <Button
+        android:id="@+id/user_login_bn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@id/user_pwd_et"
+        android:layout_below="@id/user_pwd_tv"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@layout/round_bn"
+        android:text="@string/user_logon"
+        android:textColor="#FFFFFFFF" />
+
+</RelativeLayout>
